@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link {
+    margin:10px;
+}
+
+.header-link a {
+    color: white;
+}
+
+.nav-left,.nav-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav-left p{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.content-left,.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.content img{
+    margin: 20px;
+}
+
+.secondsection{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    padding: 20px 0px 20px 0px;
+}
+
+.quote-block{
+    display: block;
+    position: relative;
+    margin: 5rem auto;
+    font-size: 1.5rem;
+    width: 50%;
+} 
+
+.quote-block p{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+ .author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.last-box{
+    background-color: #3882F6;
+    width: 50%;
+    display: flex;
+}
+
+.lastlastsec{
+    padding: 50px 0px 50px 0px;
+}
+
+.lastsec{
+    display: flex;
+    justify-content: center;
+}
+
+.text-box{
+    padding: 3rem;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 2rem;
+    color: #E5E7EB;
+}
