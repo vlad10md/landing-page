@@ -120,21 +120,43 @@ h2{
 
 .last-box{
     background-color: #3882F6;
-    width: 50%;
+    width: 65%;
+    border-radius: 7px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.lastlastsec{
+.last-section{
     padding: 50px 0px 50px 0px;
 }
 
-.lastsec{
+.last-section-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .text-box{
     padding: 3rem;
+    margin-left: 3rem;
+    color: white;
+    font-size: 20px;
+}
+
+.end-but{
+    padding: 3rem;
+    margin-right: 3rem;
+}
+
+.button-itself{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+    border: 2px solid white;
 }
 
 footer{
