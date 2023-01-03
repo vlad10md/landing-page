@@ -5,14 +5,10 @@
     text-decoration: none;
 }
 
-.container{
-    margin-inline: auto;
-    width: min(90%, 70.5rem);
-}
-
 header{
     background-color: #1F2937;
     color: white;
+    padding-bottom: 3rem;
 }
 
 .nav{
@@ -60,6 +56,21 @@ ul{
     width: 60%;
 }
 
+.content-left p{
+    margin-left: 50px;
+    width: 40%;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    border: 0px solid white;
+    color: #E5E7EB;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
 .content h1{
     font-size: 48px;
     font-weight: bold;
@@ -92,6 +103,7 @@ h2{
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
